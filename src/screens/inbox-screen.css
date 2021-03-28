@@ -8,8 +8,8 @@
   /* transition-duration: 400ms; */
 }
 .inbox.hidden {
-  right: 100%;
-  left: -100%;
+  right: 40%;
+  left: -40%;
   opacity: 0;
 }
 

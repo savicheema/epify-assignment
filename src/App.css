@@ -25,6 +25,11 @@
   align-content: center;
 }
 
+.App .header .screen-head .operation {
+  display: flex;
+  align-items: center;
+}
+
 .App .header .screen-head .title .status {
   font-size: 12px;
 }

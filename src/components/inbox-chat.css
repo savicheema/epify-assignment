@@ -30,7 +30,11 @@
 .inbox-chat .info-container .chat-details .unread-count {
   background-color: lightblue;
   color: white;
-  border-radius: 8px;
+  border-radius: 50%;
+  height: 18px;
+  width: 18px;
   padding: 4px;
+  text-align: center;
   margin-top: 4px;
+  font-size: 14px;
 }

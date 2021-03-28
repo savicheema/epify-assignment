@@ -4,8 +4,7 @@
   /* left: 0; */
   /* right: 0; */
   height: auto;
-  width: 512px;
-  max-width: 512px;
+  width: calc(var(--app-width) - 8px);
 
   display: grid;
   grid-template-columns: 88% 12%;

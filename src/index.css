@@ -12,6 +12,10 @@ body {
   overflow-y: hidden;
 }
 
+:root {
+  --app-width: 480px;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

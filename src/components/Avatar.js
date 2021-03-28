@@ -7,7 +7,7 @@ const Avatar = (props) => {
   return (
     <div className={avatarClass}>
       {props.avatar && <img src={props.avatar} alt="avatar" />}
-      {!props.avatar && "User"}
+      {!props.avatar && "U"}
     </div>
   );
 };

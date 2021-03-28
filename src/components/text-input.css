@@ -5,6 +5,7 @@
   /* right: 0; */
   height: auto;
   width: calc(var(--app-width) - 8px);
+  max-width: calc(100vw - 8px);
 
   display: grid;
   grid-template-columns: 88% 12%;

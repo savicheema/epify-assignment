@@ -1,6 +1,9 @@
 import React from "react";
 import "./text-input.css";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
+
 class TextInput extends React.Component {
   render() {
     let { isTyping } = this.state;
@@ -16,7 +19,9 @@ class TextInput extends React.Component {
         >
           Type new message
         </span>
-        <button className="send-button">send</button>
+        <button className="send-button">
+          <FontAwesomeIcon icon={faPaperPlane} />
+        </button>
       </div>
     );
   }

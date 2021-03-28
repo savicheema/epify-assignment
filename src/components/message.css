@@ -1,8 +1,9 @@
 .message {
-  width: 100%;
+  width: 96%;
   display: flex;
   align-items: flex-end;
   margin-bottom: 8px;
+  padding: 0 4px;
 }
 .message.sent {
   justify-content: flex-end;
@@ -32,4 +33,10 @@
 .message .message-info .time {
   font-size: 12px;
   margin-left: 4px;
+}
+
+@media screen and (max-width: 500px) {
+  .message .message-info .message-bubble {
+    max-width: 200px;
+  }
 }

@@ -1,0 +1,35 @@
+.message {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 8px;
+}
+.message.sent {
+  justify-content: flex-end;
+}
+
+.message .message-info {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: -16px;
+}
+.message.sent .message-info {
+  align-items: flex-end;
+}
+.message .message-info .message-bubble {
+  width: 280px;
+  padding: 8px;
+  border-radius: 4px 4px 4px 4px;
+  margin-bottom: 4px;
+  margin-left: 4px;
+  min-height: 52px;
+  background-color: #ddd;
+}
+.message.sent .message-info .message-bubble {
+  background-color: lightblue;
+}
+.message .message-info .time {
+  font-size: 12px;
+  margin-left: 4px;
+}

@@ -1,0 +1,28 @@
+.avatar {
+  display: flex;
+  /* padding: 4px; */
+  border-radius: 50%;
+  height: 5vmax;
+  width: 5vmax;
+  max-width: 68px;
+  max-height: 68px;
+  background-color: lightblue;
+  color: white;
+  margin: 4px;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar.mini {
+  height: 2vmax;
+  width: 2vmax;
+  font-size: 8px;
+}
+
+.avatar img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+
+  object-fit: cover;
+}

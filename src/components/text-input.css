@@ -1,0 +1,40 @@
+.text-input-container {
+  position: fixed;
+  bottom: 0;
+  /* left: 0; */
+  /* right: 0; */
+  height: auto;
+  width: 512px;
+  max-width: 512px;
+
+  display: grid;
+  grid-template-columns: 88% 12%;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color: #ddd;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+.text-input-container span {
+  overflow-y: auto;
+  height: auto;
+  min-height: 32px;
+  max-height: 200px;
+  word-wrap: break-word;
+  word-break: break-all;
+  margin: 4px;
+}
+.text-input-container button {
+  max-height: 48px;
+  max-width: 48px;
+  height: 5vmax;
+  width: 5vmax;
+  border-radius: 50%;
+
+  background: none;
+  outline: none;
+  border: none;
+  background-color: lightblue;
+  color: white;
+}

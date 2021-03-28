@@ -1,0 +1,54 @@
+.inbox {
+  position: absolute;
+  left: 0;
+  right: 0;
+  opacity: 1;
+
+  transition-property: left, right, opacity;
+  /* transition-duration: 400ms; */
+}
+.inbox.hidden {
+  right: 100%;
+  left: -100%;
+  opacity: 0;
+}
+
+.inbox .inbox-tabs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inbox .inbox-tabs .tab {
+  padding: 4px 8px;
+  color: #ddd;
+  font-size: 18px;
+  width: 80px;
+  text-align: center;
+}
+.inbox .inbox-tabs .tab:hover {
+  background-color: #ddd;
+  color: black;
+}
+.inbox .inbox-tabs .tab:first-child {
+  background-color: white !important;
+  color: black !important;
+}
+
+.inbox .favourites {
+  margin: 12px 0;
+  border-bottom: 1px solid #ddd;
+  padding: 8px 0;
+}
+.inbox .favourites .label {
+  font-size: 12px;
+  padding: 4px 8px;
+}
+
+.inbox .favourites .favourite-users {
+  display: flex;
+}
+
+.inbox .chats {
+  max-height: 72vh;
+  overflow-y: auto;
+}
